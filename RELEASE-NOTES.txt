@@ -5,7 +5,7 @@ Cần Windows 10/11 x64, Internet và Chrome/Edge trên máy. Không cần cài 
 
 Đã kiểm tra: bộ cài cài/gỡ được, ứng dụng khởi động, xác thực bằng dịch vụ giả lập, tách hồ sơ, mở/dừng Chrome và giữ dữ liệu sau khi khởi động lại.
 
-Giới hạn: chưa có chữ ký số; chưa gồm nhân Chromium tùy chỉnh; Google OAuth chưa bật; mẫu email và SMTP cần cấu hình/kiểm chứng trước khi phát hành rộng. Không bảo đảm tránh cơ chế phát hiện của YouTube/Google. Chưa có cập nhật tự động.
+Giới hạn: chưa có chữ ký số; chưa gồm nhân Chromium tùy chỉnh; Google OAuth và email xác nhận/khôi phục đã được kiểm thử thật; Gmail SMTP có giới hạn và cần nhà cung cấp email giao dịch khi mở rộng. Không bảo đảm tránh cơ chế phát hiện của YouTube/Google. Đã có tự kiểm tra phiên bản; tự tải/cài có xác minh chữ ký chờ chứng thư publisher và kiểm thử cập nhật đã ký.
 
 Hỗ trợ: https://github.com/dangtudev/orbit-browser/issues
-SHA-256 Orbit-Setup-0.1.0-x64.exe: 8615d5545120c7c76ae2e5479fb58a5914ac000c0d17d904be906df66645b7db
+SHA-256 Orbit-Setup-0.1.0-x64.exe: f6f12774d3abdb44c962a45c5e254669066d1838fec12199efd6f8f737d3a518
