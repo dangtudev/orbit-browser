@@ -1,6 +1,6 @@
-Orbit 0.1.1 Beta — Windows x64
+Orbit 0.2.0 Beta — Windows x64
 
-Sửa lỗi khởi động khi cổng 3210 đang bận: tự chuyển cổng 3211–3214, chấm dứt tiến trình lỗi ngay, ghi đúng mã lỗi và tách cookie theo cổng. Đã kiểm thử bộ cài với cổng mặc định bị chiếm.
+Mới trong 0.2.0: giao diện quản lý nằm trong cửa sổ Orbit riêng trên Windows, không mở tab web. Có thu nhỏ/phóng to/đóng, menu điều hướng, đăng nhập email trong app và Google qua trình duyệt hệ thống rồi tự quay về app. Renderer được sandbox, không có Node.js; phiên Google chuyển riêng cho app qua IPC một lần.
 
 Bản thử nghiệm quản lý hồ sơ, proxy HTTP/SOCKS5 và cấu hình thiết bị.
 Cần Windows 10/11 x64, Internet và Chrome/Edge trên máy. Không cần cài Node.js.
@@ -10,4 +10,4 @@ Cần Windows 10/11 x64, Internet và Chrome/Edge trên máy. Không cần cài 
 Giới hạn: chưa có chữ ký số; chưa gồm nhân Chromium tùy chỉnh; Google OAuth và email xác nhận/khôi phục đã được kiểm thử thật; Gmail SMTP có giới hạn và cần nhà cung cấp email giao dịch khi mở rộng. Không bảo đảm tránh cơ chế phát hiện của YouTube/Google. Đã có tự kiểm tra phiên bản; tự tải/cài có xác minh chữ ký chờ chứng thư publisher và kiểm thử cập nhật đã ký.
 
 Hỗ trợ: https://github.com/dangtudev/orbit-browser/issues
-SHA-256 Orbit-Setup-0.1.1-x64.exe: d10bb85af668254edbb3c9b50c1fa984c032b3e77b3d9a82e05f4a3cf75ea3e2
+SHA-256 Orbit-Setup-0.2.0-x64.exe: 32b5cd461b8374b3c69d8d3877dda96891cf1d7eca2060e4bf5fe524fac5c9ac
