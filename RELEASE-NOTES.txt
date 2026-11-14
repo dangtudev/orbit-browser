@@ -1,0 +1,11 @@
+Orbit 0.1.0 Beta — Windows x64
+
+Bản thử nghiệm quản lý hồ sơ, proxy HTTP/SOCKS5 và cấu hình thiết bị.
+Cần Windows 10/11 x64, Internet và Chrome/Edge trên máy. Không cần cài Node.js.
+
+Đã kiểm tra: bộ cài cài/gỡ được, ứng dụng khởi động, xác thực bằng dịch vụ giả lập, tách hồ sơ, mở/dừng Chrome và giữ dữ liệu sau khi khởi động lại.
+
+Giới hạn: chưa có chữ ký số; chưa gồm nhân Chromium tùy chỉnh; Google OAuth chưa bật; mẫu email và SMTP cần cấu hình/kiểm chứng trước khi phát hành rộng. Không bảo đảm tránh cơ chế phát hiện của YouTube/Google. Chưa có cập nhật tự động.
+
+Hỗ trợ: https://github.com/dangtudev/orbit-browser/issues
+SHA-256 Orbit-Setup-0.1.0-x64.exe: 8615d5545120c7c76ae2e5479fb58a5914ac000c0d17d904be906df66645b7db
