@@ -1,8 +1,8 @@
-Orbit 0.4.0 Beta — Windows x64
+Orbit 0.5.0 Beta — Windows x64
 
-Mới trong 0.4.0: chọn tối đa 100 hồ sơ để Mở/Dừng/Đổi nhóm/Gán proxy. Mở tối đa 1–3 hồ sơ đồng thời, giới hạn 1–20 cửa sổ (mặc định 5). Báo cáo kết quả từng hồ sơ; lỗi một mục không dừng cả tác vụ. Không thay cấu hình hồ sơ đang chạy. Bao gồm sửa lỗi thoát app khi còn kết nối cục bộ.
+Mới trong 0.5.0: Nhật ký lỗi dễ hiểu theo tài khoản. Hiển thị nguyên nhân/cách xử lý cho kết nối, mở hồ sơ, trang bắt đầu, thao tác hàng loạt và sao lưu/khôi phục. Lọc mức độ/hồ sơ, xóa nhật ký, xuất báo cáo JSON an toàn. Chỉ lưu các trường định sẵn, tối đa 500 mục; không lưu tên hồ sơ, IP, URL, mật khẩu, token, cookie hoặc stack trace trong báo cáo. Tên hồ sơ chỉ hiển thị cục bộ từ danh sách hiện tại. Không tự gửi báo cáo. Lỗi khởi động hoặc trước khi đăng nhập xem startup.log.
 
-32 kiểm thử tự động và kiểm thử cửa sổ Windows đã qua, gồm thao tác chọn nhiều, đổi nhóm, giới hạn cửa sổ và đóng app.
+34 kiểm thử tự động và kiểm thử cửa sổ Windows đã qua.
 
 Bản thử nghiệm quản lý hồ sơ, proxy HTTP/SOCKS5 và cấu hình thiết bị.
 Cần Windows 10/11 x64, Internet và Chrome/Edge trên máy. Không cần cài Node.js.
@@ -12,4 +12,4 @@ Cần Windows 10/11 x64, Internet và Chrome/Edge trên máy. Không cần cài 
 Giới hạn: chưa có chữ ký số; chưa gồm nhân Chromium tùy chỉnh; Google OAuth và email xác nhận/khôi phục đã được kiểm thử thật; Gmail SMTP có giới hạn và cần nhà cung cấp email giao dịch khi mở rộng. Không bảo đảm tránh cơ chế phát hiện của YouTube/Google. Đã có tự kiểm tra phiên bản; tự tải/cài có xác minh chữ ký chờ chứng thư publisher và kiểm thử cập nhật đã ký.
 
 Hỗ trợ: https://github.com/dangtudev/orbit-browser/issues
-SHA-256 Orbit-Setup-0.4.0-x64.exe: bfa19e6088b626e078d7ad49e3d3ee7316ef2949850df6527e3e8522ccbc881a
+SHA-256 Orbit-Setup-0.5.0-x64.exe: fe17139d5147572f74808ec2990e8cb070ff90642b86c2bacd81823b6784aca0
