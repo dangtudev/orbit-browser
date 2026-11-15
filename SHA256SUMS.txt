@@ -1,1 +1,1 @@
-e9eccc8dc25d5fd00df3cb6b6c74bb4bdbd40e8dd957e78139835eca5ecc7d27  Orbit-Setup-0.6.0-x64.exe
+1467e14d803386ed4088b78360ffa33dfa9ffe6dbfa733ae28ac9d47698ba70a  Orbit-Setup-0.7.0-x64.exe
