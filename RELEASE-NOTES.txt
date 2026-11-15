@@ -1,8 +1,8 @@
-Orbit 0.3.1 Beta — Windows x64
+Orbit 0.4.0 Beta — Windows x64
 
-Mới trong 0.3.1: Kiểm tra kết nối trước khi mở hồ sơ (mặc định Bật), qua đúng proxy đã chọn hoặc kết nối trực tiếp nếu không chọn proxy. Chỉ mở khi kiểm tra thành công, hiển thị IP và thời gian phản hồi; sai xác thực, timeout hoặc phản hồi không hợp lệ sẽ chặn mở. Có thể Tắt trong cửa sổ sửa hồ sơ. Có sửa proxy/nhập danh sách proxy cùng các tính năng sao lưu ở bản trước. Phép kiểm tra IP không phải kiểm toán rò rỉ DNS/WebRTC/IPv6.
+Mới trong 0.4.0: chọn tối đa 100 hồ sơ để Mở/Dừng/Đổi nhóm/Gán proxy. Mở tối đa 1–3 hồ sơ đồng thời, giới hạn 1–20 cửa sổ (mặc định 5). Báo cáo kết quả từng hồ sơ; lỗi một mục không dừng cả tác vụ. Không thay cấu hình hồ sơ đang chạy. Bao gồm sửa lỗi thoát app khi còn kết nối cục bộ.
 
-31 kiểm thử tự động đã qua, gồm xác thực proxy, IP sai, chuyển hướng, timeout, chặn mở khi proxy lỗi và mở sau kết nối hợp lệ.
+32 kiểm thử tự động và kiểm thử cửa sổ Windows đã qua, gồm thao tác chọn nhiều, đổi nhóm, giới hạn cửa sổ và đóng app.
 
 Bản thử nghiệm quản lý hồ sơ, proxy HTTP/SOCKS5 và cấu hình thiết bị.
 Cần Windows 10/11 x64, Internet và Chrome/Edge trên máy. Không cần cài Node.js.
@@ -12,4 +12,4 @@ Cần Windows 10/11 x64, Internet và Chrome/Edge trên máy. Không cần cài 
 Giới hạn: chưa có chữ ký số; chưa gồm nhân Chromium tùy chỉnh; Google OAuth và email xác nhận/khôi phục đã được kiểm thử thật; Gmail SMTP có giới hạn và cần nhà cung cấp email giao dịch khi mở rộng. Không bảo đảm tránh cơ chế phát hiện của YouTube/Google. Đã có tự kiểm tra phiên bản; tự tải/cài có xác minh chữ ký chờ chứng thư publisher và kiểm thử cập nhật đã ký.
 
 Hỗ trợ: https://github.com/dangtudev/orbit-browser/issues
-SHA-256 Orbit-Setup-0.3.1-x64.exe: 23618bdafb339da2b4b2fba0ec1a948a400253431854b58880148d498b9a427d
+SHA-256 Orbit-Setup-0.4.0-x64.exe: bfa19e6088b626e078d7ad49e3d3ee7316ef2949850df6527e3e8522ccbc881a
