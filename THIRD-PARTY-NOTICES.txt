@@ -1,4 +1,4 @@
-Orbit 0.2.1
+Orbit 0.2.2
 Runtime dependency notices. Electron and bundled Chromium licenses are also shipped with the application in LICENSE.electron.txt and LICENSES.chromium.html.
 
 ========================================================================
@@ -33,7 +33,7 @@ SOFTWARE.
 
 
 ========================================================================
-fs-extra@10.2.1
+fs-extra@10.2.2
 License: "MIT"
 Repository: https://github.com/jprichardson/node-fs-extra
 
@@ -1308,7 +1308,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ========================================================================
-socks-proxy-agent@10.2.1
+socks-proxy-agent@10.2.2
 License: "MIT"
 Repository: https://github.com/TooTallNate/proxy-agents.git
 
