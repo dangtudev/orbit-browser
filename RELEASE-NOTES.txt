@@ -1,15 +1,10 @@
-Orbit 0.7.0 Beta — Windows x64
+Orbit 0.9.1 Beta — Windows x64
 
-Mới trong 0.7.0: Thùng rác hồ sơ, khôi phục cùng mã và dữ liệu; xóa vĩnh viễn yêu cầu DELETE và chỉ tác động thư mục đúng hồ sơ. Không tự xóa theo ngày. Xóa bị gián đoạn được đánh dấu để chỉ thử xóa tiếp. Nhãn (tối đa 12), yêu thích, tìm kiếm không dấu theo tên/nhóm/nhãn/ghi chú/proxy, lọc kết hợp proxy/trạng thái/kết nối/lần mở và sắp xếp. Bản sao lưu giữ trạng thái thùng rác khi khôi phục thành bản mới.
+Thêm tùy chọn “Duy trì đăng nhập trên máy này” cho email và Google: mở lại Orbit vẫn đăng nhập trong tối đa 30 ngày, tùy hiệu lực phiên từ dịch vụ tài khoản. Refresh token được mã hóa bằng cơ chế bảo mật Windows; không lưu mật khẩu. Đăng xuất xóa phiên ghi nhớ trên máy.
 
-38 kiểm thử tự động đã qua, gồm phục hồi dữ liệu, giới hạn tài khoản, purge lỗi ghi/đường dẫn liên kết và giao diện tìm kiếm kết hợp.
+Đã kiểm thử ứng dụng Windows đóng gói: đóng/mở lại, đổi cổng nội bộ, tự làm mới phiên, đăng xuất, không ghi nhớ, phiên hết hạn và mất kết nối với dịch vụ giả lập.
 
-Bản thử nghiệm quản lý hồ sơ, proxy HTTP/SOCKS5 và cấu hình thiết bị.
-Cần Windows 10/11 x64, Internet và Chrome/Edge trên máy. Không cần cài Node.js.
-
-Đã kiểm tra: bộ cài cài/gỡ được, ứng dụng khởi động, xác thực bằng dịch vụ giả lập, tách hồ sơ, mở/dừng Chrome và giữ dữ liệu sau khi khởi động lại.
-
-Giới hạn: chưa có chữ ký số; chưa gồm nhân Chromium tùy chỉnh; Google OAuth và email xác nhận/khôi phục đã được kiểm thử thật; Gmail SMTP có giới hạn và cần nhà cung cấp email giao dịch khi mở rộng. Không bảo đảm tránh cơ chế phát hiện của YouTube/Google. Đã có tự kiểm tra phiên bản; tự tải/cài có xác minh chữ ký chờ chứng thư publisher và kiểm thử cập nhật đã ký.
+Windows 10/11 x64 và Internet. Fury core 0.6.4 đi kèm; hồ sơ cũ giữ engine hiện có. Bộ cài chưa ký số. Không bảo đảm website chấp nhận mọi tài khoản/proxy.
 
 Hỗ trợ: https://github.com/dangtudev/orbit-browser/issues
-SHA-256 Orbit-Setup-0.7.0-x64.exe: 1467e14d803386ed4088b78360ffa33dfa9ffe6dbfa733ae28ac9d47698ba70a
+SHA-256 Orbit-Setup-0.9.1-x64.exe: a4a0985dc8265ba6f345496d2bbc7693666372b60c73e3b5d6af7df527182995
