@@ -1,10 +1,12 @@
-Orbit 0.9.1 Beta — Windows x64
+Orbit 0.9.2 Beta — Windows x64
 
-Thêm tùy chọn “Duy trì đăng nhập trên máy này” cho email và Google: mở lại Orbit vẫn đăng nhập trong tối đa 30 ngày, tùy hiệu lực phiên từ dịch vụ tài khoản. Refresh token được mã hóa bằng cơ chế bảo mật Windows; không lưu mật khẩu. Đăng xuất xóa phiên ghi nhớ trên máy.
+Làm lại giao diện quản trị người dùng và gói thuê. Sau khi cấp/gia hạn, hiển thị xác nhận với email, gói và hạn mới; đánh dấu dòng vừa cập nhật. Chọn sẵn gói hiện tại khi máy chủ cung cấp dữ liệu, giải thích cách tính kỳ hạn và giữ cùng mã yêu cầu khi thử lại sau lỗi mạng.
 
-Đã kiểm thử ứng dụng Windows đóng gói: đóng/mở lại, đổi cổng nội bộ, tự làm mới phiên, đăng xuất, không ghi nhớ, phiên hết hạn và mất kết nối với dịch vụ giả lập.
+Các cột gói hiện tại, trạng thái và ngày hết hạn cần bản cập nhật dữ liệu quản trị trên máy chủ; nếu chưa có, giao diện hiển thị rõ chưa có dữ liệu.
 
-Windows 10/11 x64 và Internet. Fury core 0.6.4 đi kèm; hồ sơ cũ giữ engine hiện có. Bộ cài chưa ký số. Không bảo đảm website chấp nhận mọi tài khoản/proxy.
+Đã kiểm thử luồng giao diện và truy vấn dữ liệu bằng tài khoản/dữ liệu giả lập: gia hạn, hết hạn, thử lại, xác nhận và tải lại trang.
+
+Windows 10/11 x64, cần Internet. Fury core đi kèm cho hồ sơ mới. Bộ cài chưa ký số.
 
 Hỗ trợ: https://github.com/dangtudev/orbit-browser/issues
-SHA-256 Orbit-Setup-0.9.1-x64.exe: a4a0985dc8265ba6f345496d2bbc7693666372b60c73e3b5d6af7df527182995
+SHA-256 Orbit-Setup-0.9.2-x64.exe: b16fa6d0f00cce4604e49105fae14fd708c77d7130cc1fc2c434f399db06bd63
